@@ -1,1 +1,32 @@
-/* TODO: style the html */
+body{
+    font-family: Verdana, Geneva, Tahoma;
+    font-family: sans-serif;
+    line-height: 1.5;
+    font-size: 18px;
+}
+ul{
+    list-style: none;
+}
+
+.fa-check{
+    color: #2fcc71;
+    font-size: 25px;
+}
+.fa-star{
+    color:coral;
+    font-size: 25px;
+}
+
+.fa-envelope{
+    color:#3498da;
+    font-size: 25px;
+}
+.fa-twitter{
+    color:#3498da;
+    font-size: 25px;
+}
+
+.fa-linkedin{
+    color:#3498da;
+    font-size: 25px;
+}
