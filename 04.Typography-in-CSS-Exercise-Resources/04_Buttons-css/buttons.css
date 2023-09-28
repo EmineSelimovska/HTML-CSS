@@ -1,0 +1,51 @@
+
+body{
+    background-color: #e6e2e2;
+    margin: 50px;
+    width: 30%;
+  
+}
+
+a{
+  text-decoration: none;
+  border-radius: 12px;
+ 
+  border: ridge black;
+  padding: 5px 5px;
+   color: black;
+  background-color: #e6e2e2;
+  outline: none;
+  cursor: pointer;
+
+}
+
+
+button{
+    border-radius: 12px;
+    border: ridge black;
+    background-color: #e6e2e2;
+    padding: 7px 7px;
+    outline: none;
+    cursor: pointer;
+    margin-left: 15px;
+    
+}
+button:hover{
+    background-color: green;
+}
+
+.fill{
+    color:white;
+    background-color:rgb(51, 51, 51);
+}
+a:hover {
+ 
+    background-color: green;
+  }
+.hover{
+    color:white;
+    background-color:rgb(51, 51, 51);
+}
+
+
+  
