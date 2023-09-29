@@ -1,0 +1,27 @@
+@import 'https://fonts.google.com/specimen/Great+Vibes?query=Great+Vibes';
+
+body{
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+   
+}
+header{
+    font-family: 'Great Vibes', 'cursive';
+    line-height: 1.2;
+
+}
+h1, h2{
+    font-weight: bold;
+  
+}
+
+.li-2{
+    list-style: disc;
+}
+.li-1{
+    list-style: square;
+}
+.li-3{
+    list-style: circle;
+}
