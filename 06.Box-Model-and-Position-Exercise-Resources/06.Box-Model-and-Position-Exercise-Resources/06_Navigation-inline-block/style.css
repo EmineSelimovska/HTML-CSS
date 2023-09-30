@@ -1,0 +1,45 @@
+body {
+  font-family: Helvetica, sans-serif;
+  padding: 20px 20px 20px 20px;
+  margin: 20px 20px 40px 40px;
+}
+header {
+    padding: 1em 0;
+    position: relative;
+}
+header ul {
+    padding: 0;
+    
+    
+}
+
+header li  {
+    display: inline-block;
+    list-style: none;
+    margin: 0 0.2em;
+
+}
+
+header a {
+    display: block;
+    padding: 0.5em 0.8em;
+    text-decoration: none;
+    color: green;
+   
+}
+
+header a:hover {
+    background: #ccc;
+    
+}
+nav {
+    position: absolute;
+    
+
+    bottom: 45%;
+    right: 20%;
+    left: 20%;
+
+    transform: translateY(50%);
+    
+}
