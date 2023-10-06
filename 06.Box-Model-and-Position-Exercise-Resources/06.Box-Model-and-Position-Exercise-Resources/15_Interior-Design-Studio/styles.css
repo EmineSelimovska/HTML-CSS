@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    
+    
+    height: 100%;
+    margin: 0 auto;
+    max-width: 800px;
+    
+}
+img {
+    margin: 0;
+    padding: 0;
+    
+}
+h1 {
+    position: absolute;
+    top: 50px;
+    left: 450px;
+    height: 100%;
+    color: antiquewhite;
+    text-shadow: 1px 1px 20px black;
+}

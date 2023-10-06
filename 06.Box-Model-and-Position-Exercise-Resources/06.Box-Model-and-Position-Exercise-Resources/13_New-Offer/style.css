@@ -1,0 +1,19 @@
+main {
+    width: 700px;
+    height: 500px;
+    margin: 60px;
+  
+}
+img {
+    position: absolute;
+    margin: 60px;
+}
+
+
+.new{
+
+    position: relative;
+    top: -60px;
+    left: 220px;
+    
+}
