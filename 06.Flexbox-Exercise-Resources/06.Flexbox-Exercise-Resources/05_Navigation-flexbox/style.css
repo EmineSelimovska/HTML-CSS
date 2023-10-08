@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font: 16px/1.5 sans-serif;
+}
+
+header {
+    display: flex;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+}
+nav {
+  margin-left: auto;
+}
+ nav ul {
+    display: flex;
+    gap: 2em;
+ }
+
+ul li {
+   display: block;
+    list-style: none;
+}
+
+ul a{
+    color: rgb(0, 153, 0);
+    text-decoration: none;
+}
+
+p {
+    margin-bottom: 2em;
+}
