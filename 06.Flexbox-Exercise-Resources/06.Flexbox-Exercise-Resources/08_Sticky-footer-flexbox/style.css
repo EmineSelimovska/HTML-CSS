@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 2em;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    background: rgb(238, 238, 238);
+    height: 100vh;
+    font-family: Helvetica, sans-serif;
+}
+header {
+    border-bottom: 2px solid black;
+   
+}
+
+main h2{
+    font-family: Georgia, serif;
+}
+
+footer{
+    color: rgb(255, 255, 255);
+    background: rgb(102, 102, 102);
+}
