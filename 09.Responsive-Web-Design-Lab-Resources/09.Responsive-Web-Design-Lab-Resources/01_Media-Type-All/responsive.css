@@ -1,0 +1,15 @@
+* {
+   box-sizing: border-box;
+}
+body{
+    background: #CCC;
+    font-size: 16px;
+}
+
+@media all and (min-width:600px){
+    body{
+        font-size: 10px;
+        
+
+    }
+}
