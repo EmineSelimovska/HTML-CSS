@@ -1,0 +1,60 @@
+@media (max-width: 600px) {
+  body{
+    font-size: 18px;
+    
+  }
+    .container{
+        
+        flex-wrap: wrap;
+       
+    }
+    header{
+       
+        gap: 10em;
+        margin: 2em;
+       
+    }
+    header nav ul{
+        display: none;
+    }
+    header nav .menu{
+        display: flex;
+        justify-content: end;
+        align-items: end;
+        padding-bottom: 6.5em;
+        padding-left: 10em;
+        
+    }
+
+    main{
+       
+        padding-bottom: 5em;
+    }
+    .website div i{
+        float: inline-end;
+        padding-left: 0.2em;
+        padding-right: 0.5em;
+       }
+
+    .website div p {
+ 
+       
+        margin-right: 8em;
+        padding-right: 8em;
+        
+      
+     }
+     .website div {
+        padding-bottom: 4em;
+    }
+    
+    .our-team .pic img{
+        width: 8em;
+    }
+
+    .testimonials .testi img{
+        width: 8em;
+    }
+    
+  
+}

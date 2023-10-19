@@ -1,0 +1,272 @@
+
+.container{
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+header{
+  display: flex;
+  gap: 20em;
+ 
+}
+
+header nav .menu {
+    display: none;
+}
+
+header span {
+    display: flex;
+    flex-wrap: wrap;
+    color: #666;
+    font-size: 0.5em;
+}
+
+header ul{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+   
+    
+}
+nav{
+    display: flex;
+   justify-content: end;
+   align-items:end;
+   margin: 0;
+}
+
+header li {
+    list-style: none;
+    padding: 1em;
+}
+header h2 a{
+    color: purple;
+    
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    margin:4em;
+    padding-bottom: 1em;
+    gap:4em;
+}
+ 
+.website {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.website div p {
+
+   margin-left: 0;
+   margin-right: 8em;
+   padding-right: 8em;
+   padding-left: 0;
+ 
+}
+.website div {
+    padding-bottom: 1em;
+}
+
+.website div i{
+ float: inline-end;
+ padding-left: 1.2em;
+ padding-right: 1.1em;
+}
+
+.website button {
+   padding: 0.5em;
+  
+}
+
+
+.our-team {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4em;
+    justify-content: center;
+    align-items: center;
+    
+}
+.our-team .pic {
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 1em;
+    gap: 7em;
+   
+}
+.our-team .pic img {
+    display: block;
+    margin: 1em auto;
+    width: 7vw;
+}
+.our-team .pic div  {
+    width: 17em;
+} 
+
+.our-team .pic div h3,
+.our-team .pic div p {
+    text-align: center;
+}
+
+.our-team .pic div p:first-of-type{
+    padding-bottom: 1em;
+}
+.our-team h2 {
+  
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.our-team h2 span{
+   
+    display: block;
+    margin: 1em 1em;
+   width: 5ch;
+   height: 2px;
+   
+ background: black;
+  
+}
+
+
+.newsletter {
+    display: flex;
+    flex-direction: column;
+    background-color: purple;
+    padding-bottom: 1em;
+    height: 8em;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+.container h2 {
+    padding-top: 2em;
+}
+.newsletter .button{
+    padding-top: 0.2em;
+    padding-bottom: 3em;
+}
+
+.newsletter  h2 span{
+    display: block;
+     margin: 0.2em 4.5em;
+    
+    width: 5.5ch;
+    height: 2px;
+    
+  background: black;
+   
+}
+
+.testimonials {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3em;
+    justify-content: center;
+    align-items: center;
+ 
+    
+}
+
+.testimonials .testi {
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 1em;
+    gap: 7em;
+   
+}
+ .testimonials .testi img {
+    display: block;
+    margin: 1em auto;
+    width: 6vw;
+ }
+
+ .testimonials .testi div {
+    width: 17em;
+   
+ }
+ .testimonials .testi div h3,
+ .testimonials .testi div p {
+
+    text-align: center;
+ }
+
+ .testimonials .testi div p{
+    color: #666;
+    padding-bottom: 2em;
+ }
+
+ .testimonials h2 {
+    justify-content: center;
+    align-items: center;
+ }
+
+ .testimonials h2 span {
+    display: block;
+    margin: 0.5em 1.5em;
+    width: 5ch;
+    height: 2px;
+    background: black;
+ }
+
+footer .comman {
+    display: flex;
+    background: rgb(255, 255, 255);
+    border-top: 2px solid #CCC;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 4em;
+    gap:4em;
+ 
+}
+
+footer .spider{
+    display: flex;
+    flex-wrap: wrap;
+    width: 20em;
+}
+
+footer .sitemap ul {
+    display: block;
+}
+
+footer .sitemap li{
+    display: block;
+    overflow: hidden;
+}
+
+footer .sitemap a {
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+   
+   
+}
+
+footer .sitemap-two ul{
+   display: block;
+}
+
+footer .sitemap-two li {
+    display: block;
+    overflow: hidden;
+}
+
+footer .sitemap-two a {
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+}
