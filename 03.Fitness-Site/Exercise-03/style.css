@@ -12,44 +12,46 @@ html {
 .body {
     max-width: 1200px;
     margin: 0 auto;
-    
+
 }
+
 img {
     display: block;
     width: 100%;
     height: auto;
 }
+
 body {
     background-color: black;
     background-repeat: no-repeat;
     background-image: url(../image/fitness-main.jpg);
     background-size: contain;
     background-position: center -20px;
-    
-    
+
+
 }
 
 .header-one .container,
-.header-two .container{
+.header-two .container {
     max-width: initial;
 }
 
-.header-one .container{
+.header-one .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     color: white;
     background: #D01919;
     height: 0;
-   padding:1em;
+    padding: 1em;
 }
 
- 
+
 
 .header-one .container ul {
     display: flex;
-    
-    
+
+
 }
 
 .header-one .container li {
@@ -60,37 +62,37 @@ body {
 .header-one .container a {
     text-decoration: none;
     color: white;
-   
+
 }
 
-.header-two .container  {
+.header-two .container {
     display: flex;
     justify-content: flex-end;
     padding: 1em;
-    
-    
-   
+
+
+
 }
 
 
-.header-two .container  nav ul {
+.header-two .container nav ul {
     display: flex;
-   gap: 2em;
-   
+    gap: 2em;
+
 
 }
 
- .header-two .container nav li {
+.header-two .container nav li {
     display: block;
-    
-    
+
+
 }
 
-.header-two .container  nav a {
+.header-two .container nav a {
     display: block;
     text-decoration: none;
     color: #CCCCC1;
-  padding: 2em;
+    padding: 2em;
     font-size: 10px;
 }
 
@@ -103,58 +105,59 @@ body {
     color: white;
     padding: 4em 2em;
     height: 38em;
-    
+
 }
+
 .header-three .container h1 {
     font-size: 3em;
     font-weight: normal;
     letter-spacing: 0.3em;
-    
- }
- 
- .header-three .container p {
-     max-width: 53ch;
-     margin: 1em 0;
-     text-align: center;
- }
- 
- .header-three .container a{
-    display: block;
-   text-decoration: none;
-   color: white;
-   background: #D01919 ;
-   padding: 0.5em 1em;
-   border-radius: 0.5em;
- }
- 
 
-.main .container .welcome{
-   
-   background: white;
-   
-   padding: 3em;
+}
+
+.header-three .container p {
+    max-width: 53ch;
+    margin: 1em 0;
+    text-align: center;
+}
+
+.header-three .container a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    background: #D01919;
+    padding: 0.5em 1em;
+    border-radius: 0.5em;
 }
 
 
-.main .container article{
+.main .container .welcome {
+
+    background: white;
+
+    padding: 3em;
+}
+
+
+.main .container article {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 5em;
-   flex: 1 1 30%;
+    flex: 1 1 30%;
 }
 
 .main .container .welcome article img {
-    
+
     width: 19%;
-    
+
     margin: 1em auto;
 }
 
 .main .container .welcome article div,
-.main .container .coaches article div{
+.main .container .coaches article div {
     text-align: center;
-  width: 17em;
+    width: 17em;
 }
 
 .main .container .welcome article div h4 {
@@ -171,15 +174,16 @@ body {
     width: 3ch;
     height: 2px;
     background: #D01919;
-    
+
 }
+
 .main .container .welcome div h4 {
     color: #D01919;
 }
 
 .main .container .coaches {
     background: #BFBFBF;
-    
+
 }
 
 .main .container .coaches h2 {
@@ -189,17 +193,17 @@ body {
 
 .main .container .coaches h2 span {
     display: block;
-    margin:  1em auto;
+    margin: 1em auto;
     width: 2.5ch;
     height: 2px;
     background: #D01919;
-    
+
 }
- 
+
 .main .container .coaches article img {
-    
+
     width: 100%;
-    
+
     margin: 0 auto;
 }
 
@@ -214,9 +218,9 @@ body {
     color: #858699;
 }
 
-.footer .container  {
-    
+.footer .container {
+
     background: #D01919;
     text-align: center;
-    
+
 }
